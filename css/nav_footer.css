@@ -12,24 +12,35 @@ ul {
 }
 
 footer {
-    background-color: #000000;/* Cor de fundo do rodapé */
-    color: #fff;/* Texto branco */
-    padding: 2rem 1rem;/* Espaçamento interno */
-    text-align: center;/* Centraliza o texto */
-    left: 0 !important;/* Posicionamento à esquerda */
-    right: 0 !important;/* Posicionamento à direita */
+    background-color: #000000;
+    /* Cor de fundo do rodapé */
+    color: #fff;
+    /* Texto branco */
+    padding: 2rem 1rem;
+    /* Espaçamento interno */
+    text-align: center;
+    /* Centraliza o texto */
+    left: 0 !important;
+    /* Posicionamento à esquerda */
+    right: 0 !important;
+    /* Posicionamento à direita */
 }
 
 /* Efeito hover nos links do rodapé */
 footer div a:hover {
-    color: #00ff99 !important;/* Cor verde ao passar o mouse */
+    color: #00ff99 !important;
+    /* Cor verde ao passar o mouse */
 }
 
 
 /* Estiliza os ícones sociais (Facebook, Twitter...) */
 .footer-social a {
-    color: #fff !important;/* Ícones brancos */
-    font-size: 1.2rem !important;/* Tamanho dos ícones */
-    margin: 0 10px !important;/* Espaço entre ícones */
-    display: inline-block !important;/* Exibe os ícones lado a lado */
+    color: #fff !important;
+    /* Ícones brancos */
+    font-size: 1.2rem !important;
+    /* Tamanho dos ícones */
+    margin: 0 10px !important;
+    /* Espaço entre ícones */
+    display: inline-block !important;
+    /* Exibe os ícones lado a lado */
 }

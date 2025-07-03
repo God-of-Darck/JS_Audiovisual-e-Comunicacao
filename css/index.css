@@ -35,8 +35,6 @@ main{
 .bottomD{
     text-align: center !important;
     background-color: rgb(59, 58, 59) !important;
-    margin-left: 610px !important;
-    margin-right: 610px !important;
     padding-top: 10px !important;
     padding-bottom: 10px !important;
     border-radius: 16px !important;
@@ -46,3 +44,4 @@ main{
     color: rgb(255, 255, 255) !important;
     border: none !important;
 }
+
