@@ -15,50 +15,76 @@
   <!-- Font Awesome (para ícones de redes sociais) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-  <!-- Seu CSS personalizado -->
+  <!-- Seus CSS personalizado -->
   <link rel="stylesheet" href="/css/nav_footer.css">
+  <link rel="stylesheet" href="/css/contatos.css">
 </head>
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-sm navbar-dark">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/index.html">
           <img src="/imgs/logo.jpg" alt="Logo" style="width: 40px;" class="rounded-pill">
         </a>
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="/index.html">Início</a></li>
-          <li class="nav-item"><a class="nav-link" href="Sobre.html">Sobre</a></li>
-          <li class="nav-item"><a class="nav-link" href="Servicos.html">Serviços</a></li>
-          <li class="nav-item"><a class="nav-link" href="Portifolio.html">Portfólio</a></li>
+          <!-- <li class="nav-item"><a class="nav-link" href="Sobre.html">Sobre</a></li> -->
+          <!-- <li class="nav-item"><a class="nav-link" href="Servicos.html">Serviços</a></li> -->
+          <!-- <li class="nav-item"><a class="nav-link" href="Portifolio.html">Portfólio</a></li> -->
           <li class="nav-item"><a class="nav-link active" href="Contato.html">Contato</a></li>
         </ul>
       </div>
     </nav>
   </header>
 
-  <main id="content">
-    
-  <script>
-    // Simulando o carregamento de uma "view"
-    fetch('pagina1.html')
-      .then(res => res.text())
-      .then(html => {
-        document.getElementById('content').innerHTML = html;
-      });
-  </script>
+  <main class="container py-5">
+    <h2 class="text-center mb-4">Fale Conosco</h2>
 
+    <div class="row">
+      <!-- Formulário -->
+      <div class="col-md-6 mb-4">
+        <form>
+          <div class="mb-3">
+            <label for="nome" class="form-label">Seu Nome</label>
+            <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" required />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Seu E-mail</label>
+            <input type="email" class="form-control" id="email" placeholder="exemplo@email.com" required />
+          </div>
+          <div class="mb-3">
+            <label for="mensagem" class="form-label">Mensagem</label>
+            <textarea class="form-control" id="mensagem" rows="5" placeholder="Digite sua mensagem" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-dark">Enviar Mensagem</button>
+        </form>
+      </div>
 
+      <!-- Informações de Contato -->
+      <div class="col-md-6">
+        <h5 class="mb-3">Informações de Contato</h5>
+        <!-- <p><i class="fas fa-envelope me-2"></i> contato@jsousavisual.com</p -->
+        <p><i class="fas fa-phone me-2"></i> (63) 98129-8715</p>
+        <p><i class="fas fa-map-marker-alt me-2"></i> Palmas - TO, Brasil</p>
+
+        <h6 class="mt-4">Redes Sociais</h6>
+        <div class="d-flex gap-3 fs-4">
+          <a href="https://www.instagram.com/jsouza_vizual" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/556381298715?text=Ol%C3%A1!%20Gostaria%20de%20obter%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20de%20audiovisual%20e%20comunica%C3%A7%C3%A3o%20oferecidos%20por%20voc%C3%AAs." target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
   </main>
 
-  <footer class="text-center text-white p-3">
+  <footer class="text-center text-white p-3 bg-dark">
     <p class="mb-2">Copyright &copy; 2025. Desenvolvido por NEXUS</p>
     <div class="footer-social d-flex justify-content-center gap-3">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-x-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-        <a href="#"><i class="fab fa-telegram-plane"></i></a>
+        <!-- <a href="#"><i class="fab fa-facebook-f"></i></a> -->
+        <!-- <a href="#"><i class="fab fa-x-twitter"></i></a> -->
+        <a href="https://www.instagram.com/jsouza_vizual?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fab fa-instagram"></i></a>
+        <!-- <a href="#"><i class="fab fa-linkedin-in"></i></a> -->
+        <a href="https://wa.me/556381298715?text=Ol%C3%A1!%20Gostaria%20de%20obter%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20de%20audiovisual%20e%20comunica%C3%A7%C3%A3o%20oferecidos%20por%20voc%C3%AAs."><i class="fab fa-whatsapp"></i></a>
     </div>
   </footer>
 

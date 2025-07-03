@@ -1,0 +1,48 @@
+main{
+    background-color: black !important;
+    color: white !important;
+    padding-bottom: 80px !important;
+}
+
+.container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  justify-content: center;
+  padding-bottom: 90px !important;
+}
+
+.card {
+  width: 300px !important;
+  height: 450px !important;
+  background-color: #000000 !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
+  box-shadow: -16px 14px 4px rgba(255, 255, 255, 0.15) !important;
+}
+
+.card:hover{
+    transform: scale(1.05) !important;
+    box-shadow: -8px 7px 2px rgba(255, 255, 255, 0.15) !important;
+}
+
+.card-video {
+  width: 100% !important;
+  height: auto !important;
+  display: block !important;
+}
+
+.bottomD{
+    text-align: center !important;
+    background-color: rgb(59, 58, 59) !important;
+    margin-left: 610px !important;
+    margin-right: 610px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    border-radius: 16px !important;
+}
+.buttonD{
+    background-color: rgb(59, 58, 59) !important;
+    color: rgb(255, 255, 255) !important;
+    border: none !important;
+}
